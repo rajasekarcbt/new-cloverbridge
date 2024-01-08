@@ -828,7 +828,7 @@ a{
 p{
 	position:relative;
 	line-height:28px;
-	color:var(--color-six);
+	color:var(--white-color);
 	font-size:var(--font-16);
 	
 }
@@ -1779,6 +1779,7 @@ img{
 	font-weight:700;
 	text-transform:capitalize;
 	margin-top:var(--margin-top-20);
+	color: var(--white-color);
 }
 
 .sec-title_heading span{
@@ -1788,7 +1789,7 @@ img{
 .sec-title_text{
 	line-height:30px;
 	font-size:var(--font-18);
-	color:var(--color-fifteen);
+	color:var(--white-color);
 	margin-top:var(--margin-top-20);
 }
 
@@ -1872,6 +1873,7 @@ img{
 	font-size:var(--font-42);
 	text-transform:capitalize;
 	margin-top:var(--margin-top-30);
+	color:var(--white-color);
 }
 
 .sec-title_two-heading span{

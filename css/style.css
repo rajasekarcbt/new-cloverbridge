@@ -231,7 +231,7 @@
 
 .service-one{
 	position:relative;
-	background-color:var(--color-five);
+	background-color:#041E42;
 }
 
 .service-block_one{
@@ -276,7 +276,7 @@
 .service-block_one-title a{
 	position:relative;
 	font-weight:700;
-	color:var(--black-color);
+	color:var(--white-color);
 	font-size:var(--font-22);
 }
 
@@ -438,7 +438,7 @@
 	display:inline-block;
 	padding:0px 10px 15px;
 	transition:all 500ms ease;
-	color:var(--color-fifteen);
+	color:var(--white-color);
 	text-transform:capitalize;
 	font-size:var(--font-17);
 	margin-right:var(--margin-right-20);
@@ -1082,7 +1082,7 @@
 
 .team-one{
 	position:relative;
-	padding:160px 0px 70px;
+	padding:70px 0px 70px;
 }
 
 .team-color-box{
@@ -3816,7 +3816,7 @@
 	right:0px;
 	bottom:0px;
 	opacity:0.95;
-	background-color:#f7f8fb;
+	background-color:#041e42;
 }
 
 .testimonial-section .pattern-layer-one{
@@ -3842,7 +3842,7 @@
 }
 
 .testimonial-section .sec-title_two-text{
-	color:var(--color-thirtyseven);
+	color:var(--white-color);
 }
 
 .testimonial-section .carousel-column{

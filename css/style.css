@@ -1388,9 +1388,13 @@
 }
 
 
+.counter-one{
+	background-color: #01011b;
+}
 
-
-
+.testimonial-three{
+	background-color: #011a38;
+}
 
 
 
@@ -7110,7 +7114,7 @@
 	right:0px;
 	height:1px;
 	opacity:0.30;
-	border-bottom:1px dashed var(--black-color);
+	border-bottom:1px dashed var(--white-color);
 }
 
 .process-one_block{
@@ -7172,11 +7176,12 @@
 	font-weight:700;
 	margin-top:var(--margin-top-25);
 	font-family:var(--font-family-FiraSans);
+	color: var(--white-color);
 }
 
 .process-one_text{
 	position:relative;
-	color:#6a6a6a;
+	color:#a1abb5;
 	line-height:28px;
 	font-size:var(--font-15);
 	margin-top:var(--margin-top-10);
@@ -7273,7 +7278,46 @@
     -webkit-text-fill-color: transparent;
 }
 
+.box-inner h5{
+	color: var(--white-color);
+}
 
+.tools-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+
+.tools-list span{
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 15px 20px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.sidebar-widget{
+	padding: 21px 2px;
+    background: rgb(4 30 66);
+}
+
+.sidebar-widget h4{
+	text-align: center;
+    margin: 20px 20px 15px 10px;
+	color: var(--main-color);
+}
+
+.tools-list span:hover {
+	background: rgb(11 90 219);
+	border-right-color: rgb(11 90 219);
+	border-bottom: rgb(11 90 219);
+  }
 
 .testimonial-three_image-column{
 	position:relative;
@@ -7373,9 +7417,10 @@
 	display:block;
 	padding:16px 30px;
 	font-size:var(--font-18);
-	color:var(--black-color);
-	background-color:var(--color-seventyfive);
-	border-left:5px solid transparent;
+	border-left:5px solid rgb(4 132 35);
+	color: var(--white-color) !important;
+	background-color: var(--main-color);
+	border-color: rgb(4 132 35);
 }
 
 .cat-list li a:hover{
@@ -7386,7 +7431,7 @@
 .cat-list li.active a{
 	color:var(--white-color);
 	background-color:var(--main-color);
-	border-color:var(--color-seventysix);
+	/* border-color:var(--color-seventysix); */
 }
 
 /* Contact Widget */
@@ -7485,7 +7530,7 @@
 
 .service-detail h3{
 	font-weight:700;
-	color:var(--black-color);
+	color:var(--main-color);
 	margin-top:var(--margin-top-30);
 	margin-bottom:var(--margin-bottom-15);
 }
@@ -7498,7 +7543,7 @@
 
 .service-detail p{
 	position:relative;
-	color:var(--color-six);
+	color:var(--white-color);
 	font-size:var(--font-17);
 	margin-bottom:var(--margin-bottom-20);
 }
@@ -7543,11 +7588,11 @@
 
 .feature-two_heading{
 	position:relative;
-	color:var(--white-color);
+	color:var(--main-color);
 }
 
-.feature-two_heading span{
-	color:var(--color-seventysix);
+.product-subhead{
+	color: var(--main-color);
 }
 
 .feature-two_text{
@@ -7661,14 +7706,62 @@
 	display:block;
 	font-weight:700;
 	margin-bottom:var(--margin-bottom-15);
+	color: var(--main-color);
 }
 
 .projects-detail .lower-content p{
 	position:relative;
 	line-height:27px;
 	font-size:var(--font-17);
-	color:var(--color-eightythree);
+	color:var(--white-color);
 	margin-bottom:var(--margin-bottom-25);
+}
+
+.clearfix .mobility-list{
+	position: relative;
+    padding: 35px 35px;
+    background-color: rgb(4 30 66);
+}
+
+.clearfix .mobility-list-two{
+	position: relative;
+    padding: 35px 35px;
+    background-color: rgb(4 30 66);
+}
+
+.cloud-englist{
+	position: relative;
+    padding: 17px 14px;
+    background-color: rgb(4 30 66);
+	margin-bottom: 30px;
+}
+
+.cloud-englist h4{
+	margin-bottom: 20px;
+    color: var(--main-color);
+}
+
+.opensource-list{
+	position: relative;
+    padding: 17px 14px;
+	background-color: rgb(5 62 119);
+}
+
+.careers-list{
+	position: relative;
+    padding: 17px 14px;
+    background-color: rgb(4 30 66);
+	margin-bottom: 20px;
+}
+
+.careers-list h4{
+	color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.lower-content h4{
+	color: var(--main-color);
+    margin-bottom: 20px;
 }
 
 .projects-detail .check-list{
@@ -7679,7 +7772,7 @@
 	position:relative;
 	line-height:30px;
 	font-size:var(--font-17);
-	color:var(--color-eightythree);
+	color:#9da4ad;
 	padding-left:var(--padding-left-30);
 	margin-bottom:var(--margin-bottom-20);
 }

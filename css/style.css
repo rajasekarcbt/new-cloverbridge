@@ -1,4 +1,4 @@
-/* IT-Firm IT Businees HTML-5 Template */
+/* CloverBridge Technologies */
 
 /* 
 	
@@ -7292,7 +7292,7 @@
 .tools-list span{
     display: inline-block;
     padding: 15px 15px;
-    margin: 15px 20px;
+    margin: 15px 14px;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
     -webkit-transition: all 0.3s ease 0s;
@@ -7563,7 +7563,7 @@
 
 .feature-two_inner{
 	position:relative;
-	padding:35px 35px;
+	padding:15px 0px;
 	background-color:var(--color-seventyeight);
 }
 

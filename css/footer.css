@@ -290,7 +290,7 @@
 }
 
 .quick-link li a:before{
-	font-family: 'FontAwesome';
+	font-family: 'Font Awesome 5 Pro';
 	position:absolute;
 	content: "\f101";
 	left:0px;

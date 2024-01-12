@@ -933,10 +933,6 @@
 }
 
 @media only screen and (max-width: 479px) {
-	.pongal-image img {
-		width: 10;
-		width: 200px;
-	}
 	
 	.main-slider_title {
 		line-height: 40px;

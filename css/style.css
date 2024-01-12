@@ -93,6 +93,7 @@
 
 .main-slider .owl-nav .owl-prev{
 	position:absolute;
+	top: 80px;
 	left:30px;
 	width:48px;
 	height:48px;
@@ -111,6 +112,7 @@
 }
 
 .main-slider .owl-nav .owl-next{
+	top:80px;
 	position:absolute;
 	right:30px;
 	width:48px;

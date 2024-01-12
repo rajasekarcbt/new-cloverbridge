@@ -1669,6 +1669,7 @@ readers do not read off random characters that represent icons */
 
 .fa-chevron-down:before {
   content: "\f078";
+  color: white;
 }
 
 .fa-chevron-left:before {

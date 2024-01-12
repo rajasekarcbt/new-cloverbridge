@@ -164,6 +164,26 @@
 	color:var(--white-color);
 }
 
+.pongal-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+	  transform: translateY(0);
+	}
+	40% {
+	  transform: translateY(-30px);
+	}
+	60% {
+	  transform: translateY(-20px);
+	}
+  }
+
 .main-slider .active .main-slider_title{
 	opacity:1;
 	transform:scale(1,1);
